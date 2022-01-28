@@ -1,0 +1,41 @@
+
+.flex-item1:hover {
+     background: url("/images/image5-.jpg") no-repeat;
+     transform:  scale(1.0);
+     font-size: 0px;
+
+}
+
+.flex-item2:hover {
+     background: url("/images/image7resized.jpg") no-repeat;
+     transform:  scale(1.0);
+     font-size: 0px;
+
+}
+
+.flex-item3:hover {
+     background: url("/images/image5-.jpg") no-repeat;
+     transform:  scale(1.0);
+     font-size: 0px;
+
+}
+
+.flex-item4:hover {
+     background: url("/images/image5-.jpg") no-repeat;
+     transform:  scale(1.25);
+     font-size: 0px;
+
+}
+
+.flex-item5:hover {
+     background: url("/images/image7resized.jpg") no-repeat;
+     transform:  scale(1.25);
+     font-size: 0px;
+
+}
+
+.flex-item6:hover {
+     background: url("/images/image5-.jpg") no-repeat;
+     transform:  scale(1.25);
+     font-size: 0px;
+}

@@ -1,3 +1,147 @@
+@import "imagestyling.css";
+
+@import "animation.css";
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
 body {
-	background-image: url(/images/image5);
+	background-image: url(/images/Frontpage.jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  
+
+}
+
+.destinationsbody {
+
+	background-image: url(/images/image3.jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+.explorebody {
+	background-image: url(/images/image20.jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+
+}
+.aboutbody {
+	background-image: url(/images/image21.jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+
+}
+
+.header {
+
+	background-color: black;
+	width: 100%;
+	height: 75px;
+	opacity: 0.6;
+
+}
+
+h1 {
+
+	color: lightgray;
+	font-family: 'Raleway', sans-serif;
+	font-size: 4em;
+	padding-left: 15px;
+
+}
+
+h2 {
+
+	text-align: center;
+	font-weight: bold;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	font-size: 3em;
+	text-shadow: 2px 2px 2px grey;
+
+}
+h3 {
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+}
+
+.lighth2 { 
+	color: lightgray;
+	font-weight: 200;
+	font-size: 3.5em;
+	text-shadow: 2px 2px 2px black;
+
+	 }
+
+a {
+	text-decoration: none;
+	color: lightgray;
+	
+}
+
+.internal-links-container {
+	position: absolute; top: 35px; right: 100px;
+
+}
+
+#internal-links {
+	font-size: 1.5em;
+	margin-left: 25px;
+}
+
+.frontpagebox {
+	background-color: #a5c0c0;
+	box-shadow: 5px 5px 5px black;
+	height: 275px;
+	width: 25%;
+	padding: 20px;
+	margin-left: 10px;
+	margin-bottom: 75px;
+	opacity: 0.9;
+	font-weight: bold;
+
+}
+.explorebox {
+	background-color: #b19fc1;
+	box-shadow: 5px 5px 5px #645e68;
+	height: 275px;
+	width: 25%;
+	padding: 20px;
+	margin-left: 10px;
+	margin-bottom: 75px;
+	opacity: 0.9;
+	font-weight: bold;
+
+}
+
+
+
+.flex-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     align-items: center;
+     align-content: space-around;
+     position: relative; top: 60px;
+
+}
+
+.footer {
+
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	opacity: 0.7;
+	
+	
+
+}
+
+.madeby {
+	color:  lightgray;
+	text-align: center;
+	padding-top: 12px;
 }
